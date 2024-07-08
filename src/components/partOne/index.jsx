@@ -1,7 +1,7 @@
 export default function PartOne() {
   return (
     <div>
-      <div className="flex bg-blue-50 justify-between px-[250px] text-gray-500">
+      <div className="hidden md:flex bg-blue-50 justify-between px-[40px] lg:px-[250px] text-gray-500">
         <div className="flex gap-[50px] py-[20px] items-center">
           <div className="flex gap-[10px] items-center">
             <i class="fa-solid fa-phone-flip"></i>
