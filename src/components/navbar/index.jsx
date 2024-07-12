@@ -8,7 +8,7 @@ import {
 
 export default function Navbar() {
   return (
-    <div className="relative hidden md:block">
+    <div className="relative hidden lg:block">
       <div className="flex justify-between gap-[50px] bg-white px-[150px] py-[20px] items-center sticky top-[65px] right-0 left-0 mb-[10px]">
         <div className="flex gap-[20px] items-center">
           <div className="bg-[#E12454] rounded-full p-[20px] w-[80px] h-[80px] flex items-center justify-center text-[50px]">

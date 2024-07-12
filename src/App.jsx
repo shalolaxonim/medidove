@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/about";
+import Departments from "./components/departments";
 import Navbar from "./components/navbar";
 import PartOne from "./components/partOne";
 // import { ShowCase } from "./components/showcase";
@@ -11,8 +12,9 @@ function App() {
     <div>
       <PartOne />
       <Navbar />
-      <Showcase2/>
-      <About/>
+      <Showcase2 />
+      <About />
+      <Departments />
     </div>
   );
 }

@@ -3,12 +3,12 @@ import ButtonGreen from "../buttonGreen";
 export default function Showcase2() {
   return (
     <div>
-      <div className="flex flex-col md:flex-row bg-red-300">
-        <div className="flex flex-col gap-[20px] bg-gray-300 p-[20px] md:p-[100px] md:w-[50%] items-center text-center md:text-start md:items-start py-[80px]">
+      <div className="flex flex-col lg:flex-row bg-red-300">
+        <div className="flex flex-col gap-[20px] bg-gray-300 p-[20px] lg:p-[100px] lg:w-[50%] items-center text-center lg:text-start lg:items-start py-[80px]">
           <h2 className="text-gray-500 text-[20px] font-semibold">
             We are here for your care.
           </h2>
-          <h1 className="text-[#223645] md:text-[90px] font-bold md:leading-[100px]">
+          <h1 className="text-[#223645] text-[40px] md:text-[90px] font-bold md:leading-[100px]">
             Best Care & Best Doctor.
           </h1>
           <p>
@@ -23,7 +23,11 @@ export default function Showcase2() {
             </div>
           </div>
         </div>
-        <img className="sm:w-[50%]" src="../../../doctor.webp" alt="" />
+        <img
+          className="sm:w-[50%] md:w-[100%] lg:w-[50%]"
+          src="../../../doctor.webp"
+          alt=""
+        />
       </div>
     </div>
   );

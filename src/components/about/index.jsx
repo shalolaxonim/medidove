@@ -3,15 +3,15 @@ import ButtonGreen from "../buttonGreen";
 export default function About() {
   return (
     <div>
-      <div className="flex flex-col md:flex-row py-[80px] md:p-[100px]">
+      <div className="flex flex-col lg:flex-row py-[80px] lg:p-[100px]">
         <img
-          className="sm:w-[50%] object-cover"
+          className="sm:w-[50%] md:w-[100%] lg:w-[50%] object-cover"
           src="../../../doctor2.png"
           alt=""
         />
-        <div className="flex flex-col gap-[20px] p-[20px] md:p-[100px] md:w-[50%] md:text-start md:items-start py-[80px]">
+        <div className="flex flex-col gap-[20px] p-[20px] lg:p-[100px] lg:w-[50%] lg:text-start lg:items-start py-[80px]">
           <h2 className="text-gray-500 text-[20px] font-semibold">About Us</h2>
-          <h1 className="text-[#223645] md:text-[50px] font-bold md:leading-[80px]">
+          <h1 className="text-[#223645] md:text-[50px] font-bold md:w-[80%] lg:w-[100%] md:leading-[80px]">
             Short Story About MediDove Clinic.
           </h1>
           <p>
