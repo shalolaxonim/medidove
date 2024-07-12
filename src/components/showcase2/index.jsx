@@ -4,7 +4,7 @@ export default function Showcase2() {
   return (
     <div>
       <div className="flex flex-col md:flex-row bg-red-300">
-        <div className="flex flex-col gap-[20px] bg-gray-300 p-[20px] md:p-[100px] md:w-[50%] items-center text-center py-[80px]">
+        <div className="flex flex-col gap-[20px] bg-gray-300 p-[20px] md:p-[100px] md:w-[50%] items-center text-center md:text-start md:items-start py-[80px]">
           <h2 className="text-gray-500 text-[20px] font-semibold">
             We are here for your care.
           </h2>

@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/about";
 import Navbar from "./components/navbar";
 import PartOne from "./components/partOne";
 // import { ShowCase } from "./components/showcase";
@@ -10,10 +11,8 @@ function App() {
     <div>
       <PartOne />
       <Navbar />
-      {/* <ShowCase /> */}
-      {/* <ShowCase /> */}
-      {/* <Show/> */}
       <Showcase2/>
+      <About/>
     </div>
   );
 }
