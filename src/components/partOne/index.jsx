@@ -12,7 +12,7 @@ export default function PartOne() {
             <p>info@example.com</p>
           </div>
         </div>
-        <button className="bg-[#E12454] py-[10px] px-[40px] text-white">
+        <button className="bg-[#E12454] py-[10px] px-[40px] text-white hover:bg-[#8FB569]">
           MAKE APPOINTMENT
         </button>
       </div>

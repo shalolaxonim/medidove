@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/about";
+import AvailablePart from "./components/available";
 import Departments from "./components/departments";
 import Navbar from "./components/navbar";
 import PartOne from "./components/partOne";
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Departments />
       <Team />
+      <AvailablePart />
     </div>
   );
 }
