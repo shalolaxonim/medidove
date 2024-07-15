@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/about";
 import AvailablePart from "./components/available";
 import Departments from "./components/departments";
+import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import News from "./components/news";
 import PartOne from "./components/partOne";
@@ -25,6 +26,10 @@ function App() {
       <Pricing />
       <TrustPart />
       <News />
+      <Footer />
+      <div className="bg-[#0D1B26] text-white text-center p-[30px]">
+        Copyright by@ BasicTheme - 2022
+      </div>
     </div>
   );
 }
