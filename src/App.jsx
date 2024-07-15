@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./components/about";
 import AvailablePart from "./components/available";
@@ -12,11 +13,12 @@ import Show from "./components/showcase1";
 import Showcase2 from "./components/showcase2";
 import Team from "./components/team";
 import TrustPart from "./components/trust";
+import Home from "./pages/home";
 
 function App() {
   return (
     <div>
-      <PartOne />
+      {/* <PartOne />
       <Navbar />
       <Showcase2 />
       <About />
@@ -29,7 +31,10 @@ function App() {
       <Footer />
       <div className="bg-[#0D1B26] text-white text-center p-[30px]">
         Copyright by@ BasicTheme - 2022
-      </div>
+      </div> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }
