@@ -3,6 +3,7 @@ import About from "./components/about";
 import AvailablePart from "./components/available";
 import Departments from "./components/departments";
 import Navbar from "./components/navbar";
+import News from "./components/news";
 import PartOne from "./components/partOne";
 import Pricing from "./components/pricing";
 // import { ShowCase } from "./components/showcase";
@@ -23,6 +24,7 @@ function App() {
       <AvailablePart />
       <Pricing />
       <TrustPart />
+      <News />
     </div>
   );
 }
