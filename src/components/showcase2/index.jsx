@@ -17,7 +17,7 @@ export default function Showcase2() {
             labore.
           </p>
           <div className="flex gap-[30px] items-center flex-col md:flex-row">
-            <ButtonGreen />
+            <ButtonGreen btnText={"MAKE APPOINTMENT"} />
             <div className="bg-[#8FB569] w-[60px] h-[60px] rounded-full p-[10px] flex justify-center items-center">
               <i class="fa-solid fa-play text-white"></i>
             </div>

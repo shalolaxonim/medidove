@@ -11,7 +11,7 @@ export default function AvailablePart() {
           <h1 className="text-white text-[30px] md:text-[60px] font-bold md:leading-[70px]">
             We Always Ready For A Challenge.
           </h1>
-          <ButtonGreen />
+          <ButtonGreen btnText={"MAKE APPOINTMENT"} />
         </div>
         <div className="lg:w-[80%] flex flex-col gap-[30px]">
           <div className="flex md:gap-[40px] items-center flex-col md:flex-row">

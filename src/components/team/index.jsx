@@ -17,7 +17,7 @@ export default function Team() {
           </div>
         </div>
         <div className="hidden lg:block">
-          <ButtonGreen />
+          <ButtonGreen btnText={"MAKE APPOINTMENT"} />
         </div>
       </div>
       <div className="flex flex-wrap gap-[80px] justify-center lg:w-[80%]">
