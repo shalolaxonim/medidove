@@ -9,6 +9,7 @@ import Pricing from "./components/pricing";
 import Show from "./components/showcase1";
 import Showcase2 from "./components/showcase2";
 import Team from "./components/team";
+import TrustPart from "./components/trust";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Team />
       <AvailablePart />
       <Pricing />
+      <TrustPart />
     </div>
   );
 }
