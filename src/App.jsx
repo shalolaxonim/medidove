@@ -14,6 +14,7 @@ import Showcase2 from "./components/showcase2";
 import Team from "./components/team";
 import TrustPart from "./components/trust";
 import Home from "./pages/home";
+import HomeTwo from "./pages/homeTwo";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       </div> */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/homeTwo" element={<HomeTwo />} />
       </Routes>
     </div>
   );

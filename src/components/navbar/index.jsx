@@ -5,6 +5,7 @@ import {
   MenuItem,
   MenuList,
 } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -23,11 +24,21 @@ export default function Navbar() {
                 <p className="text-[#223645] font-semibold">Home +</p>
               </MenuHandler>
               <MenuList className="flex flex-col bg-white p-[20px] border-t-[10px] border-[#E12454] text-[#223645] gap-[10px] mt-[45px] shadow-lg">
-                <MenuItem>Home 1</MenuItem>
-                <MenuItem>Home 2</MenuItem>
-                <MenuItem>Home 3</MenuItem>
-                <MenuItem>Home 4</MenuItem>
-                <MenuItem>Home 5</MenuItem>
+                <Link to="/">
+                  <MenuItem>Home 1</MenuItem>
+                </Link>
+                <Link to="/homeTwo">
+                  <MenuItem>Home 2</MenuItem>
+                </Link>
+                <Link to="/homeThree">
+                  <MenuItem>Home 3</MenuItem>
+                </Link>
+                <Link to="/homeFour">
+                  <MenuItem>Home 4</MenuItem>
+                </Link>
+                <Link to="/homeFive">
+                  <MenuItem>Home 5</MenuItem>
+                </Link>
               </MenuList>
             </Menu>
             <Menu placement="bottom" allowHover>
