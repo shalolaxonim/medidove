@@ -1,4 +1,5 @@
 import HomeShowcase from "../../components/homeShowcase";
+import Mission from "../../components/mission";
 import Navbar from "../../components/navbar";
 
 export default function HomeTwo() {
@@ -6,6 +7,7 @@ export default function HomeTwo() {
     <div>
       <Navbar />
       <HomeShowcase />
+      <Mission />
     </div>
   );
 }
