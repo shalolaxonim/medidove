@@ -3,7 +3,7 @@ import ButtonGreen from "../buttonGreen";
 export default function Mission() {
   return (
     <div>
-      <div className="flex flex-col items-center lg:flex-row md:py-[80px] lg:p-[100px]">
+      <div className="flex flex-col items-center lg:flex-row md:pb-[50px] lg:p-[100px]">
         <div className="flex flex-col gap-[20px] p-[20px] lg:p-[100px] lg:w-[50%] lg:text-start lg:items-start py-[80px]">
           <h2 className="text-[#E12454] text-[20px] font-semibold">
             Our Mission & Vission
