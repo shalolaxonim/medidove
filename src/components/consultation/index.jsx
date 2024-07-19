@@ -119,7 +119,7 @@ export default function Consultation() {
           {/* <div className="md:w-[300px] h-[2px] bg-gray-500"></div> */}
           <ButtonPink btnText={"Make Appointment"} />
         </div>
-        <div className="hidden bg-[#e13865f0] w-[300px] lg:flex justify-center items-center flex-col">
+        <div className="hidden bg-[#e13865] w-[300px] lg:flex justify-center items-center flex-col">
           <i class="fa-solid fa-staff-snake text-white text-[100px]"></i>
           <h4 className="text-white text-[40px]">MediDove</h4>
         </div>
