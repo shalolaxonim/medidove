@@ -15,6 +15,7 @@ import Team from "./components/team";
 import TrustPart from "./components/trust";
 import Home from "./pages/home";
 import HomeTwo from "./pages/homeTwo";
+import HomeThree from "./pages/homeThree";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/homeTwo" element={<HomeTwo />} />
+        <Route path="/homeThree" element={<HomeThree />} />
       </Routes>
     </div>
   );
